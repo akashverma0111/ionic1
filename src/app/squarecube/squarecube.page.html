@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Simplefication</ion-title>
+
+<ion-buttons slot="start">
+      <ion-back-button text="Go to HOME" icon="arrow-back"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>
+  <ion-row>
+    <ion-col>
+  <h2 class="ion-padding" style="color: maroon;">SQUARE-ROOT AND CUBE-ROOT</h2>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-item>
+  <ion-label>Number: </ion-label>
+  <ion-input [(ngModel)]="num" placeholder="please enter the number" ></ion-input>
+</ion-item>
+  </ion-row>
+  <ion-row>
+    <ion-list>
+  <ion-item>
+    <ion-label>find the sqaure of number: </ion-label>
+    <ion-button color="success" size="default" (click)="square()">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>find the cube of number: </ion-label>
+    <ion-button color="success" size="default" (click)="cube()">click-here</ion-button>
+  </ion-item>
+    <ion-item>
+    <ion-label>find the sqaure-root of number: </ion-label>
+    <ion-button color="success" size="default" (click)="squareroot()">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>find the cube-root of number: </ion-label>
+    <ion-button color="success" size="default" (click)="cuberoot()">click-here</ion-button>
+  </ion-item>
+</ion-list>
+
+
+
+  </ion-row>
+</ion-grid>
+</ion-content>

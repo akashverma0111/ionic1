@@ -1,0 +1,105 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Number System</ion-title>
+
+<ion-buttons slot="start">
+      <ion-back-button text="Go to HOME" icon="arrow-back"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+  
+  <ion-grid>
+  <ion-row>
+    <ion-col>
+  <h2 class="ion-padding" style="color: maroon;">NUMBER SYSTEM</h2>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-item>
+  <ion-label>Number: </ion-label>
+  <ion-input [(ngModel)]="num" placeholder="please enter the number"></ion-input>
+</ion-item>
+  </ion-row>
+  <ion-row>
+    <ion-list>
+  <ion-item>
+    <ion-label>check the number is even or odd: </ion-label>
+    <ion-button color="success" size="default" (click)="check_even()">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is prime or not: </ion-label>
+    <ion-button color="success" size="default" (click)="check_prime()">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 2: </ion-label>
+  <ion-button color="success" size="default" (click)="div(2)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 3: </ion-label>
+  <ion-button color="success" size="default" (click)="div(3)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 4: </ion-label>
+  <ion-button color="success" size="default" (click)="div(4)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 5: </ion-label>
+  <ion-button color="success" size="default" (click)="div(5)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 6: </ion-label>
+  <ion-button color="success" size="default" (click)="div(6)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 7: </ion-label>
+  <ion-button color="success" size="default" (click)="div(7)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 8: </ion-label>
+  <ion-button color="success" size="default" (click)="div(8)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 9: </ion-label>
+  <ion-button color="success" size="default" (click)="div(9)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 11: </ion-label>
+  <ion-button color="success" size="default" (click)="div(11)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 13: </ion-label>
+  <ion-button color="success" size="default" (click)="div(13)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 17: </ion-label>
+  <ion-button color="success" size="default" (click)="div(17)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 19: </ion-label>
+  <ion-button color="success" size="default" (click)="div(19)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 21: </ion-label>
+  <ion-button color="success" size="default" (click)="div(21)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 23: </ion-label>
+  <ion-button color="success" size="default" (click)="div(23)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 27: </ion-label>
+  <ion-button color="success" size="default" (click)="div(27)">click-here</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label>check the number is divisible by 29: </ion-label>
+  <ion-button color="success" size="default" (click)="div(29)">click-here</ion-button>
+  </ion-item>
+  
+</ion-list>
+
+  </ion-row>
+</ion-grid>
+</ion-content>

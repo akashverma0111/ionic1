@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-toolbar  mode="ios" no-padding>
+        <ion-buttons slot="start" class="back_buttons">
+            <ion-back-button defaultHref="/tabs/userprofile" class="back_icons"></ion-back-button>
+        </ion-buttons>
+        <ion-title>&nbsp;</ion-title>
+    </ion-toolbar> 
+</ion-header>
+<div class="profile_img">
+    <span>
+        <img [src]="profile_img" >
+        <span class="upload_img" (click)="uploadProfileImage($event)"> 
+            <!--             <ion-input type="file" ></ion-input> 
+ -->upload
+        </span>
+    </span>
+</div>
+<ion-content>
+ 
+</ion-content>

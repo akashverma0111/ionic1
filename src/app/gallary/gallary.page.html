@@ -1,0 +1,24 @@
+<ion-content>
+
+    <ion-header class="header_sec" no-padding>
+        <ion-toolbar no-padding>
+            <ion-buttons slot="start" class="back_buttons">
+                <ion-back-button defaultHref="/">
+                    <ion-icon name="arrow-round-back"></ion-icon>
+                </ion-back-button>
+            </ion-buttons>
+            <ion-title>Edit Profile</ion-title>
+        </ion-toolbar>
+
+
+    </ion-header>
+
+    <div class="bg_shop">
+        <!-- <img src="assets/imgs/shopbg.png" class="img_sec"> -->
+        <img [src]="userImage" (click)="selectImage('userimage')" class="inner_img">
+        <!-- <ion-icon name="create" (click)="selectImage('userimage')"></ion-icon> -->
+        <img class="add_img" src="assets/imgs/camera.png" (click)="selectImage('userimage')">
+        <h4>Upload Your Photo</h4>
+    </div>
+
+</ion-content>
